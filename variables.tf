@@ -1,5 +1,5 @@
-variable "fronted_ports" {
-  description = "Puertos externos del fronted por entorno"
+variable "frontend_ports" {
+  description = "Puertos externos del frontend por entorno"
   type        = map(number)
 
   default = {
@@ -8,7 +8,7 @@ variable "fronted_ports" {
   }
 }
 
-variable "backed_ports" {
+variable "backend_ports" {
   description = "Puertos externos del backend por entorno"
   type        = map(number)
 
